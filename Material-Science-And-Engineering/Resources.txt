@@ -1,0 +1,22 @@
+RESOURCES
+Introduction to Materials Science: Callister
+Materials Science and Engineering: An Introduction by William D. Callister and David G. Rethwisch is the correct title for this book. The current edition, I believe, is the tenth; nonetheless, prior editions have the same content, arranged slightly differently, unless you have to adhere to specific page numbers in class.
+ 
+ 
+Every topic in materials science is covered in this book at a basic level. This is the best textbook for anyone interested in understanding the fundamentals of materials science, even if they are not students. The majority of the material covered in this book will be covered in your undergraduate degree if you are a university student.
+https://materialseducation.org/resources/instructional-resources/
+ 
+Online lectures
+Coursera: Online courses some are free and some cost money (especially if you want a diploma/certificate)
+EdX: Free online courses from the top universities in the world (for a diploma/certificate it costs money.)
+ 
+Engineering and Material
+American Society for Engineering Education: The American Society for Engineering Education is committed to furthering education in engineering and engineering technology. This mission is accomplished by promoting excellence in instruction, research, public service and practice.
+eFunda: Full-text free online resources about Fluid Mechanics, Heat Transfer, Mechanics of Material, Beam Mechanics, Plate Mechanics, Column Buckling, Failure Criteria, Fracture Mechanics, Vibrations and Finance.
+ERCOFTAC: European Research Community On Flow, Turbulence And Combustion.
+Euromech: An international non-governmental non-profit scientific organization that promotes the development of mechanics as a branch of science and engineering.
+Engineering Statistics Handbook: Promotes the use of statistic models within Engineering.
+Engineering Toolbox: Tools and basic information for design, engineering and construction of technical applications.
+EngineersEdge: Full-text free online resources about applications and design, engineering analysis, products and services, engineering calculators, engineering materials and more.
+Online Ethics for Engineering and Science: Full-text repository which aims to help scientists, engineers and people within Academia to understand and address ethical issues within the field of Engineering and Science. Contains a range of resources, such as case studies, multimedia and assessments tools.
+TechXtra: Helps you find articles, key websites, books, the latest industry news, job announcements, ejournals, eprints, technical reports, the latest research, thesis & dissertations.
