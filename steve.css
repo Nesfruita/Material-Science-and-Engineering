@@ -1,0 +1,463 @@
+    
+
+    * {
+        margin: 0rem;
+        font-family: SFUIL;
+    }
+
+    @font-face {
+        font-family: SFUIL;
+        src: url(SFUIDisplay-Light.ttf);
+    }
+
+    @font-face {
+        font-family: SFSemi;
+        src: url(SFUIDisplay-Semibold.otf);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    header {
+        width: 100%;
+        position: fixed;
+        z-index: 12;
+        font-size: 13px;
+        background: black;
+        top: -60px;
+        transition: top 0.3s;
+        color: #F5F5F7;
+        opacity: .9;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .name {
+        float: left;
+        line-height: 100%;
+        padding: 15px;
+    }
+
+    /* Header logo */
+    .img {
+        width: 5.11%;
+        float: left;
+    }
+
+    /* Header name */
+    .steve {
+        width: 50%;
+        float: left;
+        padding: 6px;
+    }
+
+    /* Navigation */
+
+    nav {
+        float: right;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        transition: 0.3s;
+        color: #F5F5F7;
+    }
+
+    a:hover {
+        background-color: #4300B8;
+        color: #F5F5F7;
+        font-weight: bolder;
+    }
+
+    /* Wrapper settings for bg section */
+    .wrap {
+        width: 70rem;
+        margin: 0rem auto 10rem;
+        border-radius: 30px;
+    }
+
+    /* Wrapper settings for facts section */
+    .wrapper {
+        width: 65rem;
+        margin: 12rem auto;
+        background-color: #101010;
+        border-radius: 30px;
+        padding: 65px;
+    }
+
+    /* Wrapper settings for demographic section */
+    .wrapper1 {
+        width: 65rem;
+        margin: 0rem auto 5rem;
+        background-color: #101010;
+        border-radius: 30px;
+        padding: 65px;
+    }
+
+    /* Wrapper settings for header section */
+    .wrapper2 {
+        width: 70rem;
+        margin: 0 auto;
+    }
+
+    /* Wrapper settings for accordion/faq section */
+    .wrapper3 {
+        width: 60rem;
+        margin: 12rem auto;
+    }
+
+    /* Wrapper settings for products */
+    .wrapper4 {
+        width: 80rem;
+        margin: 10rem auto;
+    }
+
+    .border-white {
+        border: 1px solid white;
+    }
+
+    .clear-fix {
+        clear: both;
+        float: none;
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Cover section */
+
+    .bg {
+        background-image: url('../vadevalor-site-asset.s3.amazonaws.com/themes/investment/images/steve.jpg');
+        background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 10rem 7rem 7rem 7rem;
+        animation: show 5s;
+    }
+
+    /* .bg {
+        animation: bg 30s infinite;
+    } */
+
+    .bg p {
+        font-size: 16px;
+    }
+
+    .label {
+        font-size: 90px;
+        color: #F5F5F7;
+        padding: 2% 0;
+    }
+
+    .wrap p {
+        letter-spacing: 2px;
+    }
+    
+    @keyframes show {
+        0% {
+            opacity: 0;
+        }
+
+        10% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes bg {
+        10% {
+            background-image: url('../vadevalor-site-asset.s3.amazonaws.com/themes/investment/images/steve.jpg');
+        }
+
+        20% {
+            background-image: url('../vadevalor-site-asset.s3.amazonaws.com/themes/investment/images/steve.jpg');
+
+        }
+
+        30% {
+            background-image: url('../mindfulnesscoachingschool.com/wp-content/uploads/2015/06/steve-jobs.jpg');
+        }
+
+        40% {
+            background-image: url('../mindfulnesscoachingschool.com/wp-content/uploads/2015/06/steve-jobs.jpg');
+
+        }
+
+        50% {
+            background-image: url('../s2.glbimg.com/c0njEvOt3wIUeVxQyNkaGf8En2k%3d/512x320/smart/e.glbimg.com/og/ed/f/original/2015/02/24/steve-jobs.jpg');
+        }
+
+        60% {
+            background-image: url('../s2.glbimg.com/c0njEvOt3wIUeVxQyNkaGf8En2k%3d/512x320/smart/e.glbimg.com/og/ed/f/original/2015/02/24/steve-jobs.jpg');
+
+        }
+
+        70% {
+            background-image: url('../mindfulnesscoachingschool.com/wp-content/uploads/2015/06/steve-jobs.jpg');
+        }
+
+        80% {
+            background-image: url('../mindfulnesscoachingschool.com/wp-content/uploads/2015/06/steve-jobs.jpg');
+
+        }
+
+        90% {
+            background-image: url('../vadevalor-site-asset.s3.amazonaws.com/themes/investment/images/steve.jpg');
+        }
+
+        100% {
+            background-image: url('../vadevalor-site-asset.s3.amazonaws.com/themes/investment/images/steve.jpg');
+
+        }
+    }
+
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Demographic section */
+
+    .intro {
+        color: #F5F5F7;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Demographic section */
+
+    h2 {
+        color: #F5F5F7;
+        font-size: 5rem;
+    }
+
+    p {
+        color: #F5F5F7;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Facts section */
+
+    .box {
+        color: #F5F5F7;
+        padding: 2%;
+        width: 23.33%;
+        margin: 2% 3%;
+        float: left;
+        text-align: center;
+    }
+
+    .box p {
+        text-align:justify;
+        font-size: 16px;
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Products section */
+
+    .hover {
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+        padding: 25px;
+        opacity: .8;
+    }
+
+    .products {
+        color: #444;
+        width: 30%; /* Adjusted width for a 3-column layout */
+        margin: 3% 10%; /* Adjusted margin for spacing */
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+    
+    .img-curve {
+        border-radius: 20px;
+        display: block;
+        width: 100%;
+        height: 200px; /* Set a fixed height for all images */
+        object-fit: cover; /* Maintain aspect ratio while covering the container */
+    }
+    
+    .desc {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #F5F5F7;
+        border-radius: 20px;
+    }
+    
+    .products:hover .desc {
+        opacity: 1;
+    }
+    
+    .text {
+        color: #444;
+        font-weight: bolder;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .text p {
+        font-size: 16px;
+        color: #444;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Keynotes section*/
+
+    .video {
+        float: left;
+        margin: 23px 23px 60px 23px;
+    }
+
+    .video2 {
+        float: left;
+        margin: 23px;
+    }
+
+    .video p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .video2 p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    iframe {
+        border-radius: 15px;
+    }
+
+
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Accordion section*/
+
+    h3 {
+        color: #F5F5F7;
+        font-size: 3rem;
+    }
+
+    .accordion {
+        background-color: #101010;
+        color: #666;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 16px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #4300B8;
+        color: #9EA3B0;
+        font-weight: bold;
+      }
+      
+      .accordion:after {
+        content: 'i';
+        color: #9EA3B0;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2212";
+      }
+      
+      .panel {
+        padding: 0 20px;
+        background-color: #9EA3B0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+      .panel p {
+          padding: 30px;
+          font-size: 15px;
+          color: #101010;
+      }
+
+
+    /* ------------------------------------------------------------------------------------------------ */
+    /* Footer section */
+
+    .footer {
+        width: 70rem;
+        margin: 5rem auto;
+        color: #444;
+        font-size: 11.3px;
+    }
+
+    /* .foot1 {
+        margin-top: 7px;
+        padding-top: 7px;
+    } */
+
+    .foot2 {
+        margin-top: 9px;
+        padding-top: 13px;
+        border-top: 1px solid #444;
+    }
+
+    .ft {
+        float: left;
+        width: 63%;
+        line-height: 16px;
+    }
+
+    .ft2 {
+        float: right;
+        line-height: 20px;
+    }
+
+    .reference {
+        float: right;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .reference a {
+        text-decoration: none;
+        color: #444;
+    }
+    
+    .reference a:hover {
+        background-color: black;
+        color: #4300B8;
+        font-weight: normal;
+    }
